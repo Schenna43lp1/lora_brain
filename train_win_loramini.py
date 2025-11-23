@@ -10,7 +10,7 @@ from transformers import (
 from peft import LoraConfig, get_peft_model
 
 MODEL = "Qwen/Qwen1.5-0.5B"   # <<< NUR 0.5B VERSION
-DATA = r"D:\dataset\training.jsonl"
+DATA = r"D:\dataset\training_clean.jsonl"
 OUT = r"D:\dataset\trained_model"
 
 print("🔤 Lade Tokenizer…")

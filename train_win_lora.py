@@ -11,7 +11,7 @@ from peft import LoraConfig, get_peft_model
 
 
 MODEL = "Qwen/Qwen2.5-1.5B-Instruct"
-DATA = r"D:\dataset\training.jsonl"
+DATA = r"D:\dataset\training_clean.jsonl"
 OUT = r"D:\dataset\trained_model"
 
 print("🔤 Lade Tokenizer…")
